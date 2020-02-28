@@ -1,0 +1,33 @@
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	flex-direction: column; 
+}
+
+#cont {
+	align-items: center;
+}
+
+.botao {
+	text-decoration: none;
+	font-size: 20px;
+	color: #000;
+	margin: 10px;
+}
+
+.botao:hover {
+	text-decoration: none;
+	color: #838383;
+	font-size: 22px;
+	transition: 0.5s;
+}
+
+#result {
+	width: 500px;
+	align-items: center;
+}
+
+.caixadetexto {
+	width: 500px;
+}
