@@ -7,6 +7,20 @@ body {
 
 #cont {
 	align-items: center;
+	flex-direction: row;
+}
+
+a {
+	display: flex;
+	justify-content: center;
+	color: #000;
+	font-size: 15px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #808080;
+	transition: 0.3s;
 }
 
 .botao {
